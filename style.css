@@ -1,0 +1,173 @@
+/*navbar*/
+
+.bg-white{
+	background-color: white;
+	z-index: 2;
+}
+.bg-connect{
+	background-color: #F8F9FA;
+}
+.bg-footer{
+	background-color: #333333;
+}
+.footer-line{
+	width: 100%;
+	height: 1px;
+	background-color: #6c757d;
+}
+.img-b-r{
+	border-radius: 5px;;
+}
+.z-0{
+	z-index: 1;
+}
+.p-10{
+	padding: 100px 0;;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+}
+.mb-100{
+	margin-bottom: 100px;
+}
+.ft-13{
+	font-size: 13px;
+}
+/*slider*/
+.slider-img{
+	height: 100vh;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+
+}
+.carusel-text{
+	width: 100%;
+	height: 100%;
+	padding: 35vh 14% 10%;
+	background-color: rgb(0,0,0,0.7);
+}
+.w-40{
+	width: 40%;
+}
+.carusel-text h1{
+	font-size: 50px;
+    font-weight: normal;
+}
+.img-w-30{
+	width: 30%;
+}
+
+/*investor	*/
+.inv-bg{
+	background-size: cover;
+	height: calc(100vh - 56px);
+	background-attachment: fixed; 
+	background-position: center;
+
+}
+.h{
+	font-weight: normal;
+}
+.pt-10{
+	padding-top: 6rem;
+}
+.my-ul ul li{
+	list-style-type: none;
+	line-height: 250%;
+}
+.my-ul ul li i{
+	color: red;
+	padding-right: 10px;
+	
+}
+/* section-4 */
+.relative-top{
+	top: -50px;
+}
+.line{
+	width: 50px;
+	height: 0.1rem;
+	background-color:white;
+	margin: 0 auto;
+}
+/* section-5 */
+.my-card{
+	border: 1px solid #E9ECEF;
+}
+.my-card img{
+	margin-top: 15px;
+	width: 40%;
+	border-radius: 50%;
+	
+}
+.my-card p{
+	line-height: 170%;
+}
+input.w-70{
+	float: left;
+	width: 70%;
+	padding: 15px 0 15px 7px;
+	border: 0;
+	outline: none;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+input.w-30{
+	color: white;
+	background-color: red;
+	float: left;
+	width: 30%;
+	padding: 15px 0 15px 0;
+	border: 0;
+	outline: none;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+@media only screen and (max-width: 992px){
+	/*slider*/
+	.carusel-text {
+		padding-top: 30vh;
+	}
+	.carusel-text h1{
+		font-size: 40px;
+		font-weight: normal;
+    }
+    .carusel-text p{
+		font-size: 14px;
+	
+     }
+     .w-40{
+		width: 50%;
+     }
+}
+
+@media only screen and (max-width: 562px){
+	/*slider*/
+	.carusel-text {
+		padding-top: 30vh;
+	}
+	.carusel-text h1{
+	font-size: 30px;
+	font-weight: normal;
+    }
+    .carusel-text p{
+		font-size: 13px;
+	
+	}
+	.w-40{
+		width: 70%;
+     }
+     /*inestor*/
+     .my-ul{
+     	flex-direction: column;
+     }
+     .inv-bg{
+     	height: 400px;
+     }
+
+}
